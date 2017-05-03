@@ -1,3 +1,5 @@
-*.js linguist-language=Java
-*.css linguist-language=Java
+*.js linguist-language=java
+*.css linguist-language=java
+*.html linguist-language=java
 *.xml linguist-language=Java
+*.mvnw linguist-language=Java
