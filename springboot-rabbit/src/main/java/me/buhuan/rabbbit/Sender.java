@@ -17,9 +17,9 @@ public class Sender {
     @Autowired
     private AmqpTemplate amqpTemplate;
 
-    public void send() {
+    public void send(String msg) {
         String context = "hello" + new Date();
         System.out.println("send: ..........");
-        amqpTemplate.convertAndSend("hello", context);
+        amqpTemplate.convertAndSend("hello", context + ":" + msg);
     }
 }

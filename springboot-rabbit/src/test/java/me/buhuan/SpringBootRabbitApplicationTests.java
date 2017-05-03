@@ -9,14 +9,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringCloudRabbitApplicationTests {
+public class SpringBootRabbitApplicationTests {
 
 	@Autowired
 	private Sender sender;
 
 	@Test
 	public void contextLoads() {
-		sender.send();
+		sender.send("test");
 	}
 
 }
