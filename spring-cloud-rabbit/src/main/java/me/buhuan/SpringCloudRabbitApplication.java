@@ -1,13 +1,12 @@
 package me.buhuan;
 
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringCloudClientApplication {
+public class SpringCloudRabbitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudClientApplication.class, args);
+		SpringApplication.run(SpringCloudRabbitApplication.class, args);
 	}
 }

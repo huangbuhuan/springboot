@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: client
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        register: false
