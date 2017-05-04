@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="me.buhuan.mybatis.dao.UserDao">
+    <resultMap id="BaseResultMap" type="me.buhuan.mybatis.pojo.UserDO">
+        <result column="id" property="id"></result>
+        <result column="name" property="name"></result>
+        <result column="age" property="age"></result>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, name, age
+    </sql>
+    <select id="getById" resultMap="BaseResultMap" parameterType="java.lang.String">
+        SELECT
+          <include refid="Base_Column_List"/>
+        FROM
+          t01_user
+        WHERE
+          id = #{id, jdbcType=VARCHAR}
+    </select>
+</mapper>

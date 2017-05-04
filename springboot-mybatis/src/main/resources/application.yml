@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+  application:
+    name: springboot-mybatis
+mybatis:
+  type-aliases-package: me.buhuan.mybatis.pojo
+  mapper-locations: classpath:mapper/*.xml
