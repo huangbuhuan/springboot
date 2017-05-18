@@ -1,0 +1,4 @@
+spring:
+  redis:
+    password: 5ZDER7zfMx31yw2RN3RkY4FdOr94Vq9K
+    port: 6379
