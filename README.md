@@ -14,6 +14,6 @@ springboot
 * [√]mybatis
 * [√]consul
 * [√]rabbit
-* [x]redis
+* [√]redis
 * [x]elaticsearch
 * [x]eureka
