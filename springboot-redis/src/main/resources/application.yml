@@ -1,4 +1,10 @@
 spring:
   redis:
-    password: 5ZDER7zfMx31yw2RN3RkY4FdOr94Vq9K
-    port: 6379
+    host: 6888
+    password: QNTBDIXKXzTJpeMeg7wQscixy5XPLIGh
+    pool:
+      max-active: 8
+      max-wait: -1
+    timeout: 0
+server:
+  port: 8088
