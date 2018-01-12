@@ -9,11 +9,4 @@ springboot
 
 	git clone https://github.com/huangbuhuan/springboot.git
 
-## TODO
 
-* [√]mybatis
-* [√]consul
-* [√]rabbit
-* [√]redis
-* [x]elaticsearch
-* [x]eureka
